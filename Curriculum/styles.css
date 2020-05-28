@@ -1,0 +1,162 @@
+div
+{
+    border-radius: 5px;
+    }
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: #668284;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+.imagen {
+    float:right;
+	padding-bottom: 10px;
+    font-size: 16px;
+    width: 42px; height: 100%;
+}
+
+.imagen-cv { 
+    float: right;
+    width:110px; height:150px;
+
+}
+
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+
+/*.left
+{
+    float: left;
+    margin-top: 50px;
+    /*margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }*/
+    
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+    }
+h3
+{
+    text-decoration: underline;
+    }
+
+#job-responsibilities
+{
+    padding: 1px;
+    }
+.job-title
+{
+    font-weight: bold;
+    }
+table
+{
+    border: 0px dashed black;
+    width: 100%;
+    border-collapse:collapse;
+    }
+td
+{
+    padding: 2px;
+    border: 0px solid #E88741;
+
+    }
+
+th 
+    { padding: 2px;
+        text-align: left;
+        vertical-align: top;
+     }
+
+#course-name
+{
+    font-weight:bold;
+    }
+
+#company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+#job-title
+{
+    height: 5px;
+    }
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
+    }
+
+ul.col3
+    {
+        list-style: none;
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 30px;
+    FLOAT: left;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px 0px;
+    WIDTH: 80%;
+    PADDING-TOP: 0px;
+    list-style-type:symbols();    }
+
+    ul.col3 li::before
+    {
+        padding-right: 8px;
+         content: "\2022" ;
+         font-size: 20px;
+    color: blue;}
+    
+    ul.col3 li
+    {
+    PADDING-RIGHT: 2px;
+    float: left;
+    width: 40%;
+    font-size: large ;
+    PADDING-LEFT: 2px; 
+    PADDING-BOTTOM: 5px;
+    PADDING-TOP: 2px   
+    } 
